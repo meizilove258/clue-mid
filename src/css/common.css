@@ -1,0 +1,10 @@
+.clearfixed::before, .clearfixed::after{
+    content: "";
+    display: table;
+}
+.clearfixed::after{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
